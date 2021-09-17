@@ -24,6 +24,7 @@
             $sql = "INSERT INTO `knygos`(`pavadinimas`, `santrauka`, `autoriai_id`) 
             VALUES ('$pavadinimas','$santrauka','$autoriai_id')";
 
+ 
             if(mysqli_query($conn, $sql)) {
                 echo "Knyga sėkmingai sukurta ";
                 echo "<br>";
